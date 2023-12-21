@@ -1,0 +1,75 @@
+{"intents": [
+        {"tag": "salam",
+         "patterns": ["halo", "apa kabar", "adakah orang disini?","Hey","Hola", "Hello", "selamat pagi","selamat malam","selamat sore"],
+         "responses": ["Halo, berikan saya pertanyaan tentang kerusakan jalan"],
+         "context": [""]
+        },
+        {"tag": "toko",
+         "patterns": ["rekomendasi toko online", "rekomendasikan saya toko online bagus", "adakah toko online bagus", "e-commerce", "toko online"],
+         "responses": ["Halo! Saya merekomendasikan kamu untuk menggunakan shopee,tokopedia,lazada,bukalapak"],
+         "context": [""]
+        },
+        {"tag": "sepatu keren",
+         "patterns": ["sepatu terbaik", "halo, apakah ada sepatu bagus", "Tolong beri saya info sepatu bagus"],
+         "responses": ["Halo saya merekomendasikan kamu beberapa merk sepatu 1.Adidas, 2.New Balance, 3.Vans, 4.Asics, 5.Converse, 6.Puma, 7.Reebok"],
+         "context": [""]
+        },
+        {"tag": "Baju Laki Laki", 
+         "patterns": ["Ada baju yang cocok untuk laki laki","baju laki laki murah viral","baju laki laki kekinian"],
+         "responses": ["Halo, saya akan membantumu cara memlilih baju laki laki sesuai dengan kebutuhan 1.Lengan panjang, buat tampilan lebih formal 2.Lengan pendek, buat tampilan lebih santai", "Saya akan membantumu berdasarkan bahannya 1.Bahan katun, halus dan mudah menyerap keringat 2.Bahan denim, agak kasar dan berkesan kasual 3.Bahan flanel, tebal dan hangat saat dipakai"],
+         "context": [""]
+        },
+        {"tag": "Baju Perempuan",
+         "patterns": ["Ada baju yang cocok untuk perempuan", "baju perempuan murah viral", "baju perempuan kekinian"],
+         "responses": ["Halo, saya akan membantumu cari tau konsep tiap brand baju lokal untuk wanita 1.This is April, memberikan pakaian yang simpel dan timeless 2.Lolliestory, menawarkan desain pakaian yang sweet 3.Shafira, brand baju lokal wanita hijab premium 4. Sèkouwit, baju batik wanita dalam desain modern 5.THENBLANK, menawarkan koleksi pakaian minimalis dan timeless 6.Xtamiles, koleksi pakaian untuk tubuh plus size"],
+         "context": [""]
+        },
+        {"tag": "sandal",
+         "patterns": ["rekomendasikan sandal murah"],
+         "responses": ["Halo, Saya merekomendasikan kamu sandal Homyped, Cortica, Carvil, Karsten dan Bata"],
+         "context": [""]
+        },
+        {"tag": "tas",
+         "patterns": ["rekomendasi tas lokal terbaik", "tas terbaik", "tas lokal"],
+         "responses": ["Saya merekomendasikan tas dengan merk Elizabeth, Zara, Jims Honey, Eiger, Charles&Keith, H&M, Pull&Bear, Puma"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "pencarian_e-commerce",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
+
+
